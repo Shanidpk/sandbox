@@ -1,0 +1,87 @@
+
+.main{
+    background-color:rgba(116, 185, 187, 0.24);
+    /* background-color: gold; */
+    height: 80vh;
+    border-radius: 0px 0px 40px 40%/60px ; 
+    
+    
+}
+.explore_btn{
+    border-radius: 50px;
+    border: 0;
+    background-color: #2d48e0;
+
+}
+.explore_btn:hover{
+    background-color: #425bebda;
+
+}
+/* .content{
+    background-color:rgba(116, 185, 187, 0.24);
+    border-radius: 0px 0px 40px 40px ; 
+ 
+} */
+.texts{
+    position: relative;
+    top: 40px;
+}
+.text-1{
+    position: relative;
+    top: 80px;
+    color: rgba(0, 0, 0, 0.349);
+}
+.text-2{
+    position: relative;
+    top: 40px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.801);
+    font-family: 'Kanit', sans-serif;
+    
+
+}
+.text-3{
+    position: relative;
+    top: 45px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.card{
+    /* border: none; */
+    box-shadow: .1px .1px  black;
+}
+.bi{
+  color: #3d5afe;
+}
+
+.card_elements{
+    position: relative;
+    bottom: 50px;
+    
+}
+/* .card_elements:hover{
+    transform: scale(1.05);
+    transition: 0.9s;
+} */
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.service{
+    /* background-color: rgba(243, 243, 243, 0.548); */
+    
+        /* background-color: #ebf1f117; */
+    
+}
+.head-font{
+    font-size: 45px;
+}
+.hr{
+    position: relative;
+    top: 20px;
+}
+.sec-title{
+    font-size: 38px;
+    font-weight: 600;
+
+}
