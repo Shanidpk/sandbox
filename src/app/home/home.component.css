@@ -105,15 +105,28 @@
 .badge {
     border-radius: 50px 50px;
 }
+.text-area .form-control{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
 
 @media screen and (max-width:764px) {
-    .card_elements {
-     
-        
+    .card_elements .card{
+        margin: 10px;
 
     }
+
     .text-area .col-md-3 { 
        margin: 10px;
+    }
+    .main{
+        position: relative;
+        bottom: 23px;
+    }
+    .main .text-1{
+        font-size: 13px;
+    }
+    .main .text-2 .text-3{
+        font-size: 30px;
     }
 
 }
