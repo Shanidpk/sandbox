@@ -1,0 +1,19 @@
+p {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    /* color: white; */
+    font-size: 13px;
+    padding: 5px;
+}
+.item .a :hover{
+    color: white;
+}

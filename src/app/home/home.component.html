@@ -1,4 +1,5 @@
 <app-navbar></app-navbar>
+<!---------------------------------HEADER AREA----------------------->
 <section>
   <div class="main">
     <div class="content text-center">
@@ -14,11 +15,12 @@
   </div>
 </section>
 
+<!----------------------------------CARD SECTION--------------------------------->
 
 <div class="container card_elements">
   <div class="row">
     <div class="col-md-3">
-      <div class="card">
+      <div class="card  cpy">
         <div class="card-body">
           <i class="bi bi-globe-central-south-asia h2"></i>
           <h5 class="card-title">carrer growth</h5>
@@ -28,7 +30,7 @@
     </div>
 
     <div class="col-md-3 ">
-      <div class="card">
+      <div class="card cpy">
         <div class="card-body">
           <i class="bi bi-pc-display h2"></i>
           <h5 class="card-title">work with any where</h5>
@@ -38,7 +40,7 @@
     </div>
 
     <div class="col-md-3 ">
-      <div class="card">
+      <div class="card cpy">
         <div class="card-body">
           <i class="bi bi-wallet2  h2"></i>
           <h5 class="card-title">Smart Salary</h5>
@@ -48,7 +50,7 @@
     </div>
 
     <div class="col-md-3">
-      <div class="card">
+      <div class="card cpy">
         <div class="card-body">
           <i class="bi bi-alarm-fill h2"></i>
           <h5 class="card-title">Flexible Hours </h5>
@@ -56,19 +58,19 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
+<!-------------------------------------IMAGE AREA----------------------------------------------->
 
 <section class="service">
   <div class="container">
     <div class="row">
-      <div class="col-6">
-        <img src="../../assets/pexels-祝-鹤槐-716276.jpg" alt="image" width="100%">
+      <div class="col-md-6">
+        <img src="../../assets/pexels-祝-鹤槐-716276.jpg" class="rounded" alt="image" width="100%">
       </div>
-      <div class="col-6">
-        <h6 class="">WHAT MAKE US DIFFRENT?</h6>
+      <div class="col-md-6">
+        <h6 class="text-secondary fw-bold">WHAT MAKE US DIFFRENT?</h6>
         <h2 class="head-font">We bring solutions to make life easier for our customers.</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente delectus sunt porro aspernatur voluptates!
           Sint neque porro, dignissimos esse perferendis officia maiores distinctio, animi provident, asperiores
@@ -79,19 +81,19 @@
     </div>
 
     <div class="row mt-3">
-      <div class="col-3">
-        <img src="../../assets/pexels-icsa-1708912.jpg" alt="image-loading" width="100%">
+      <div class="col-md-3">
+        <img src="../../assets/pexels-icsa-1708912.jpg" class="rounded" alt="image-loading" width="100%">
       </div>
-      <div class="col-3">
-        <img src="../../assets/pexels-tima-miroshnichenko-5427659.jpg" alt="image-loading" width="100%">
+      <div class="col-md-3">
+        <img src="../../assets/pexels-tima-miroshnichenko-5427659.jpg" class="rounded" alt="image-loading" width="100%">
       </div>
-      <div class="col-3">
+      <div class="col-md-3">
         <i class="bi bi-activity h3"></i>
         <span class="ms-2 h4">Our mission</span>
         <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ut. Optio </p>
 
       </div>
-      <div class="col-3">
+      <div class="col-md-3">
         <i class="bi bi-currency-exchange h3"></i>
         <span class="ms-2 h4">Our Vision</span>
         <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ut. Optio </p>
@@ -101,28 +103,49 @@
     <hr class="hr mt-5">
   </div>
 
+
+  <!-------------------------------------------DETAILS---------------------------------------->
+
+
   <div class="container w-75">
     <section>
       <div class="tittle mt-5">
-        <h5 class="text-center">JOB POSITIONS</h5>
-        <p class="sec-title text-center">We're always searching for amazing people to join </p>
-        <p class="sec-title text-center">our team . Take a look at our current openings.</p>
+        <h5 class="text-center text-secondary ">JOB POSITIONS</h5>
+        <p class="sec-title text-center">We're always searching for amazing people to join <br>
+          our team . Take a look at our current openings.</p>
       </div>
 
       <div class="text-area mt-5">
         <form action="">
-          <div class="row">
-            <div class="col-md-4">
-              <input type="text" class="form-control" placeholder="Position">
-
+          <div class="row d-flex justify-content-between">
+            <div class=" col-md-3">
+              <!-- <input type="text" class="form-control" placeholder="Position"> -->
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>Froentend</option>
+                <option>node js</option>
+                <option>php</option>
+                <option>ui/ux</option>
+                <option>tester</option>
+              </select>
             </div>
-
-            <div class="col-md-4">
-              <input type="text" class="form-control" placeholder="Type">
+            <div class="col-md-3">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>FullTime</option>
+                <option>Remote</option>
+                <option>Full-time</option>
+              
+              </select>
             </div>
+            <div class="col-md-3">
+              <select class="form-control " id="exampleFormControlSelect1">
+                <option selected>anywhere</option>
+                <option>US</option>
+                <option>India</option>
+                <option>Noida</option>
+                <option>uk</option>
 
-            <div class="col-md-4">
-              <input type="text" class="form-control" placeholder="Locations">
+              
+              </select>
             </div>
 
           </div>
@@ -130,24 +153,53 @@
       </div>
     </section>
 
+    <!--------------------------------------CARD SECTION--------------------------------------------->
 
     <div class="design-sec mt-5">
       <h5 class="mt-5">Design</h5>
-      <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <div class="banner card mt-3 text-center">
+        <div class="card-body d-flex justify-content-between">
+          <div class=" badge bg-success p-2">GD</div>
+          <div class=" text-secondary fw-bold">graphic desiner</div>
+          <div class="  text-secondary fw-bold">
+            <i class="bi bi-clock text-secondary fw-bold"></i>
+            Full time
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            sanfrancicso
+          </div>
         </div>
       </div>
 
       <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body d-flex justify-content-between">
+
+          <div class=" badge bg-danger p-2">UX</div>
+          <div class="text-secondary fw-bold"> ui/ux </div>
+          <div class="  text-secondary fw-bold">
+            <i class="bi bi-clock text-secondary fw-bold"></i>
+            Remote
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            Brazil
+          </div>
         </div>
       </div>
 
       <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body d-flex justify-content-between">
+          <div class="badge bg-warning p-2">AN</div>
+          <div class="text-secondary fw-bold">Multimedia</div>
+          <div class="  text-secondary fw-bold">
+            <i class="bi bi-clock text-secondary fw-bold"></i>
+            Full time
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            Us
+          </div>
         </div>
       </div>
 
@@ -156,30 +208,52 @@
     <div class="developemnt-sec mt-5">
       <h5>Development</h5>
       <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body d-flex justify-content-between">
+          <div class="badge bg-warning p-2">AN</div>
+          <div class="text-secondary fw-bold">Multimedia</div>
+          <div class="  text-secondary fw-bold">
+            <i class="bi bi-clock text-secondary fw-bold"></i>
+            Full time
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            Us
+          </div>
         </div>
       </div>
 
       <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body d-flex justify-content-between">
+          <div class="badge bg-success p-2">FE</div>
+          <div class="text-secondary fw-bold text-center">Froentend</div>
+          <div class="  text-secondary fw-bold text-center">
+            <i class="bi bi-clock text-secondary fw-bold"></i>
+            Full time
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            Us
+          </div>
         </div>
       </div>
 
       <div class="banner card mt-3">
-        <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body d-flex justify-content-between">
+          <div class="badge bg-danger p-2">JS</div>
+          <div class="text-secondary fw-bold text-center">NODE js</div>
+          <div class="  text-secondary fw-bold text-center">
+            <i class="bi bi-clock text-secondary fw-bold "></i>
+            Full time
+          </div>
+          <div class=" text-secondary fw-bold">
+            <i class="bi bi-geo-alt-fill text-secondary fw-bold"></i>
+            US
+          </div>
         </div>
       </div>
-
     </div>
-
-
-
   </div>
-
-
 </section>
 
-
+<app-banner></app-banner>
+<app-footer></app-footer>

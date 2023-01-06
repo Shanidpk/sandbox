@@ -1,87 +1,119 @@
-
-.main{
-    background-color:rgba(116, 185, 187, 0.24);
+.main {
+    background-color: rgba(116, 185, 187, 0.24);
+    background-color: azure;
     /* background-color: gold; */
-    height: 80vh;
-    border-radius: 0px 0px 40px 40%/60px ; 
-    
-    
+    min-height: 80vh;
+    border-radius: 0px 0px 40px 40%/60px;
+
+
 }
-.explore_btn{
+
+.explore_btn {
     border-radius: 50px;
     border: 0;
     background-color: #2d48e0;
 
 }
-.explore_btn:hover{
+
+.explore_btn:hover {
     background-color: #425bebda;
 
 }
+
 /* .content{
     background-color:rgba(116, 185, 187, 0.24);
     border-radius: 0px 0px 40px 40px ; 
  
 } */
-.texts{
+.texts {
     position: relative;
     top: 40px;
 }
-.text-1{
+
+.text-1 {
     position: relative;
     top: 80px;
     color: rgba(0, 0, 0, 0.349);
+    font-weight:bold;
 }
-.text-2{
+
+.text-2 {
     position: relative;
     top: 40px;
     font-size: 50px;
     color: rgba(0, 0, 0, 0.801);
     font-family: 'Kanit', sans-serif;
-    
+
 
 }
-.text-3{
+
+.text-3 {
     position: relative;
     top: 45px;
     font-size: 50px;
     color: rgba(0, 0, 0, 0.801);
 }
-.card{
+
+.card {
     /* border: none; */
-    box-shadow: .1px .1px  black;
-}
-.bi{
-  color: #3d5afe;
+    box-shadow: .1px .1px black;
 }
 
-.card_elements{
+.bi {
+    color: #3d5afe;
+}
+
+.card_elements {
     position: relative;
     bottom: 50px;
-    
+
 }
-/* .card_elements:hover{
-    transform: scale(1.05);
-    transition: 0.9s;
-} */
-.card:hover{
+
+.cpy:hover {
     transform: scale(1.05);
     transition: 0.8s;
 }
-.service{
+
+.service {
     /* background-color: rgba(243, 243, 243, 0.548); */
-    
-        /* background-color: #ebf1f117; */
-    
+
+    /* background-color: #ebf1f117; */
+
 }
-.head-font{
+
+.head-font {
     font-size: 45px;
 }
-.hr{
+
+.hr {
     position: relative;
     top: 20px;
 }
-.sec-title{
-    font-size: 38px;
+
+.sec-title {
+    font-size: 30px;
     font-weight: 600;
+
+}
+
+.banner {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 10px;
+    border: none;
+}
+
+.badge {
+    border-radius: 50px 50px;
+}
+
+@media screen and (max-width:764px) {
+    .card_elements {
+     
+        
+
+    }
+    .text-area .col-md-3 { 
+       margin: 10px;
+    }
 
 }

@@ -1,0 +1,15 @@
+.main {
+    /* background-color: rgba(116, 185, 187, 0.24); */
+    background-color: azure;
+    position: relative;
+    top: 20px;
+}
+
+.tittle {
+    position: relative;
+    top: 30px;
+}
+
+.btn {
+    border-radius: 50px;
+}

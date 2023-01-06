@@ -1,8 +1,32 @@
-
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
 ul li{
     text-decoration: none;
     list-style: none;
 }
 .navbar{
-    background-color:rgba(116, 185, 187, 0.24);
+    /* background-color:rgba(116, 185, 187, 0.24); */
+    background-color: azure;
+
+}
+.navbar .navbar-nav{
+    margin: 0 auto;
+    
+}
+
+.navbar .dropdown-menu{
+   
+}
+.nav-btn{
+    border-radius: 50px;
+    background-color: rgba(82, 82, 255, 0.925);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.navbar .nav-link{
+    display: flex;
+   
+
 }
